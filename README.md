@@ -136,7 +136,7 @@ pip install Flask pandas numpy scikit-learn joblib
 
 **Kartik Sharma**
 *Artificial Intelligence & Machine Learning Student*
-[GitHub](https://github.com/kartik10sharma) | [LinkedIn](https://linkedin.com)
+[GitHub](https://github.com/kartik10sharma) | [LinkedIn](https://www.linkedin.com/in/kartik-10sharma/)
 
 ---
 
