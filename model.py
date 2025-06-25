@@ -21,7 +21,7 @@ class MultiLabelBinarizerTransformer(BaseEstimator, TransformerMixin):
         return self.mlb.transform(X)
 
 # Load dataset
-df = pd.read_csv(r"E:\HCI\Calculator\movie_list.csv")
+df = pd.read_csv("netflix_list.csv")
 
 # Clean numerical columns
 for col in ["runtime", "numVotes", "rating"]:
