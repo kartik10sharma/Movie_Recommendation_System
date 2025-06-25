@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Movie Recommendation Result</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import
+url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+body {
+font-family: 'Inter', sans-serif;
+}
+</style>
+</head>
+<body class="bg-[#121c2a] min-h-screen flex items-center justify-center p-4">
+<div class="bg-[#1e293b] rounded-lg max-w-md w-full p-8 space-y-6">
+<h1 class="text-white text-xl font-semibold">Movie Recommendation Result</h1>
+<div class="text-white space-y-4">
+<p><span class="font-semibold">Predicted Rating:</span> {{ rating }}</p>
+</div>
+<button onclick="window.location.href='/'"
+class="w-full bg-[#4c51ff] text-white font-semibold py-3 rounded-md
+hover:bg-[#3b43cc] transition-colors">
+Back to Form
+</button>
+</div>
+</body>
+</html>
