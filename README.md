@@ -74,8 +74,8 @@ movie-rating-app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/movie-rating-app.git
-cd movie-rating-app
+git clone https://github.com/kartik10sharma/Movie_Recommendation_System.git
+cd Movie_Recommendation_System-app
 ````
 
 ### 2. Install Requirements
